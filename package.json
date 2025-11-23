@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "init-db": "node -e \"require('child_process').execSync('mysql -u root -p < schema.sql', {stdio: 'inherit'})\""
+    "build": "npm install"
   },
   "keywords": ["pos", "cafe", "express", "mysql"],
   "author": "Bintang Terang Caffe",
